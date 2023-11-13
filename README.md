@@ -1,13 +1,21 @@
 # Dynamic Request Engine
 
-## Installation
+## Installation & setup
+
+**Requirements**
+- [Poetry](https://python-poetry.org/docs/)
+- [Golang](https://go.dev/dl/) - for tests
 
 ```bash
 $ git clone git@github.com:florent-haxhiu/dynamic-request-engine
 ```
 
 ```bash
-$ 
+$ poetry shell
+```
+
+```bash
+$ poetry install
 ```
 
 ## Purpose
