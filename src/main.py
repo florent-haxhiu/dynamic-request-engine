@@ -11,7 +11,6 @@ def send_request(json_file: str):
     response = call_endpoint(data['url'], data['method'], data['payload'])
     response_body = response.json()
     data['output'] = response_body
-
     return data
 
 
